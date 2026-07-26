@@ -1,6 +1,6 @@
 # PulseCare Urgent Care
 
-PulseCare is a responsive healthcare website concept that organizes services, locations, billing guidance, patient resources, reviews, and visit registration into one consistent React interface.
+PulseCare is a desktop healthcare website concept that organizes services, locations, billing guidance, patient resources, reviews, and visit registration into one consistent React interface.
 
 > Portfolio concept: PulseCare is fictional. It does not provide medical services or advice, and its forms must not be used for real patient information.
 
@@ -8,15 +8,15 @@ PulseCare is a responsive healthcare website concept that organizes services, lo
 
 **Goal:** Make common urgent-care decisions easy to find without overwhelming the visitor.
 
-**My role:** Interface design, React implementation, responsive styling, interaction states, accessibility details, and repository documentation.
+**My role:** Interface design, React implementation, interaction states, accessibility details, and repository documentation.
 
 **Outcome:** A multi-view front-end demonstration with reusable content sections, clinic discovery, and a simulated registration journey.
 
 ## Screenshots
 
-| Desktop | Mobile |
+| Homepage | Clinic locations |
 | --- | --- |
-| ![PulseCare desktop homepage](docs/screenshots/overview-desktop.png) | ![PulseCare mobile homepage](docs/screenshots/overview-mobile.png) |
+| ![PulseCare desktop homepage](docs/screenshots/overview-desktop.png) | ![PulseCare desktop clinic locations](docs/screenshots/locations-desktop.png) |
 
 ## Key functionality
 
@@ -24,7 +24,7 @@ PulseCare is a responsive healthcare website concept that organizes services, lo
 - Searchable clinic-location experience
 - Simulated visit-registration form with confirmation state
 - Reusable navigation, service, trust, testimonial, and form components
-- Responsive layouts for desktop, tablet, and mobile screens
+- Desktop layouts for information-rich healthcare journeys
 - Semantic form controls with descriptive labeling and clearly communicated validation and confirmation states
 
 ## Architecture and decisions
@@ -32,7 +32,7 @@ PulseCare is a responsive healthcare website concept that organizes services, lo
 - `App.jsx` owns the current view and registration-dialog state.
 - Page components separate each information journey while shared components keep navigation and calls to action consistent.
 - The registration flow is deliberately simulated; no personal information is transmitted or stored.
-- CSS breakpoints preserve content priority rather than simply shrinking the desktop layout.
+- The desktop layout keeps navigation, clinic discovery, and calls to action visible without crowding the page.
 
 ## Technology
 
