@@ -25,7 +25,7 @@ PulseCare is a responsive healthcare website concept that organizes services, lo
 - Simulated visit-registration form with confirmation state
 - Reusable navigation, service, trust, testimonial, and form components
 - Responsive layouts for desktop, tablet, and mobile screens
-- Descriptive labels and visible interaction states
+- Semantic form controls with descriptive labeling and clearly communicated validation and confirmation states
 
 ## Architecture and decisions
 
