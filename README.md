@@ -60,12 +60,6 @@ npm run build
 
 GitHub Actions runs the same checks for every pushed branch and pull request.
 
-## Limitations
-
-- No real clinic search, scheduling, authentication, or medical-record integration
-- Form submission is a local demonstration only
-- Demonstration content should not be treated as medical guidance
-
 ## Assets and reuse
 
 See [ASSETS.md](ASSETS.md) for asset notes and [LICENSE](LICENSE) for reuse terms.
