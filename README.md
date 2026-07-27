@@ -1,65 +1,72 @@
-# PulseCare Urgent Care
+<div align="center">
 
-PulseCare is a desktop healthcare website concept that organizes services, locations, billing guidance, patient resources, reviews, and visit registration into one consistent React interface.
+# PulseCare
 
-> Portfolio concept: PulseCare is fictional. It does not provide medical services or advice, and its forms must not be used for real patient information.
+**A calm, structured urgent-care experience for finding services and preparing for a visit.**
 
-## Project overview
+![React](https://img.shields.io/badge/React-19-0B7285?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Frontend-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Portfolio_Concept-16324F?style=flat-square)
 
-**Goal:** Make common urgent-care decisions easy to find without overwhelming the visitor.
+</div>
 
-**My role:** Interface design, React implementation, interaction states, accessibility details, and repository documentation.
+---
 
-**Outcome:** A multi-view front-end demonstration with reusable content sections, clinic discovery, and a simulated registration journey.
+## Product story
 
-## Screenshots
+PulseCare explores how a healthcare website can make information-heavy decisions feel clear and approachable. Services, clinic discovery, billing guidance, patient resources, and visit registration are organized into one consistent desktop experience.
+
+| Focus | Contribution | Result |
+| --- | --- | --- |
+| Clear urgent-care navigation | Product interface design, React implementation, interaction states, accessibility, and documentation | A cohesive multi-view front-end demonstration with reusable patterns and a simulated registration journey |
+
+## Interface preview
 
 | Homepage | Clinic locations |
 | --- | --- |
 | ![PulseCare desktop homepage](docs/screenshots/overview-desktop.png) | ![PulseCare desktop clinic locations](docs/screenshots/locations-desktop.png) |
 
-## Key functionality
+## Experience highlights
 
-- Home, locations, billing, records, events, reviews, and provider-information views
-- Searchable clinic-location experience
-- Simulated visit-registration form with confirmation state
+- Seven connected views covering services, locations, billing, records, events, reviews, and provider information
+- Searchable clinic discovery designed for quick scanning
+- Simulated visit-registration flow with clear validation and confirmation states
 - Reusable navigation, service, trust, testimonial, and form components
-- Desktop layouts for information-rich healthcare journeys
-- Semantic form controls with descriptive labeling and clearly communicated validation and confirmation states
+- Semantic controls and descriptive labels throughout the main journeys
+- A desktop layout that keeps important actions visible without crowding the interface
 
-## Architecture and decisions
+## Design and engineering
 
-- `App.jsx` owns the current view and registration-dialog state.
-- Page components separate each information journey while shared components keep navigation and calls to action consistent.
-- The registration flow is deliberately simulated; no personal information is transmitted or stored.
-- The desktop layout keeps navigation, clinic discovery, and calls to action visible without crowding the page.
+- <code>App.jsx</code> coordinates the active view and registration-dialog state.
+- Page-level components separate each information journey.
+- Shared components preserve consistency across navigation and calls to action.
+- The registration experience remains a safe local simulation; no personal information is transmitted or stored.
 
 ## Technology
 
-- React 19
-- Vite
-- JavaScript
-- CSS
-- Lucide React icons
-- Oxlint and Node test runner
+React 19 · Vite · JavaScript · CSS · Lucide React · Oxlint · Node test runner
 
 ## Run locally
 
-```bash
+~~~bash
 npm install
 npm run dev
-```
+~~~
 
 ## Quality checks
 
-```bash
+~~~bash
 npm run lint
 npm test
 npm run build
-```
+~~~
 
 GitHub Actions runs the same checks for every pushed branch and pull request.
 
-## Assets and reuse
+## Project note
+
+> PulseCare is a fictional portfolio concept. It does not provide medical services or advice, and its forms must not be used for real patient information.
+
+## Assets and usage
 
 See [ASSETS.md](ASSETS.md) for asset notes and [LICENSE](LICENSE) for reuse terms.
