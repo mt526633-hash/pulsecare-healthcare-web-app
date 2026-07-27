@@ -6,7 +6,7 @@
 
 ![React](https://img.shields.io/badge/React-19-0B7285?style=flat-square&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-Frontend-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Portfolio_Concept-16324F?style=flat-square)
+![Project](https://img.shields.io/badge/Project-Web_Experience-16324F?style=flat-square)
 
 </div>
 
@@ -18,7 +18,7 @@ PulseCare explores how a healthcare website can make information-heavy decisions
 
 | Focus | Contribution | Result |
 | --- | --- | --- |
-| Clear urgent-care navigation | Product interface design, React implementation, interaction states, accessibility, and documentation | A cohesive multi-view front-end demonstration with reusable patterns and a simulated registration journey |
+| Clear urgent-care navigation | Product interface design, React implementation, interaction states, accessibility, and documentation | A cohesive multi-view front-end experience with reusable patterns and a guided registration journey |
 
 ## Interface preview
 
@@ -40,7 +40,7 @@ PulseCare explores how a healthcare website can make information-heavy decisions
 - <code>App.jsx</code> coordinates the active view and registration-dialog state.
 - Page-level components separate each information journey.
 - Shared components preserve consistency across navigation and calls to action.
-- The registration experience remains a safe local simulation; no personal information is transmitted or stored.
+- The registration flow is implemented on the front end; no personal information is transmitted or stored.
 
 ## Technology
 
@@ -63,9 +63,9 @@ npm run build
 
 GitHub Actions runs the same checks for every pushed branch and pull request.
 
-## Project note
+## Important note
 
-> PulseCare is a fictional portfolio concept. It does not provide medical services or advice, and its forms must not be used for real patient information.
+> This website does not provide medical services or advice, and its forms must not be used for real patient information.
 
 ## Assets and usage
 
